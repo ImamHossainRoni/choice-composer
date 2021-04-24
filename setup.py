@@ -10,7 +10,7 @@ README = (HERE / "README.md").read_text()
 # This call to setup() does all the work
 setup(
     name="choice-composer",
-    version="1.0.1",
+    version="1.0.3",
     description="It will help you to make choice filed.",
     long_description=README,
     long_description_content_type="text/markdown",
@@ -24,10 +24,10 @@ setup(
         "Programming Language :: Python :: 3.7",
         "Programming Language :: Python :: 3.8",
     ],
-    packages=["choices"],
+    packages=["choice_composer"],
     include_package_data=True,
     install_requires=[],
     entry_points={
-        "console_scripts": ["choices=choices.__main__:main",]
+        "console_scripts": ["choice_composer=choice_composer.__main__:main",]
     },
 )
